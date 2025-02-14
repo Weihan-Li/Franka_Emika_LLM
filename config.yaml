@@ -1,0 +1,11 @@
+model:
+  path: "Models/DeepSeek-R1-Distill-Qwen-7B"
+  dtype: "auto"
+  gpu_memory_utilization: 0.9
+  trust_remote_code: true
+
+generation:
+  temperature: 0.6
+  max_tokens: 32768
+  top_p: 0.95
+  top_k: 10
